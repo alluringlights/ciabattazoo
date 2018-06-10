@@ -8,6 +8,8 @@ function theme_scripts() {
 
 	wp_enqueue_style( 'master', get_template_directory_uri() . '/library/css/master.css' );
 
+	//wp_enqueue_style( 'master', get_template_directory_uri() . '/library/css/master.css', array(), filemtime( get_stylesheet_directory() . '/library/css/master.css' );
+
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic|Prata' );
 
 	wp_enqueue_script( 'master', get_template_directory_uri() . '/js/min/master-min.js', array(), false, true );
@@ -40,3 +42,7 @@ add_image_size( 'brentonic-3500', 3500 );
 add_image_size( 'brentonic-3700', 3700 );
 
 ?>
+
+
+
+
