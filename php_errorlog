@@ -1,0 +1,8 @@
+[25-Mar-2018 12:00:32 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function bloginfo() in /home/brentonw/public_html/wp-content/themes/brentonbrookings-theme/header.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/brentonw/public_html/wp-content/themes/brentonbrookings-theme/header.php on line 7
+[26-Mar-2018 05:06:25 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/brentonw/public_html/wp-content/themes/brentonbrookings-theme/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/brentonw/public_html/wp-content/themes/brentonbrookings-theme/index.php on line 1
