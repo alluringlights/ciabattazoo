@@ -6,15 +6,15 @@
 
 function theme_scripts() {
 
-	wp_enqueue_style( 'master', get_template_directory_uri() . '/library/css/master.css' );
+	// wp_enqueue_style( 'master', get_template_directory_uri() . '/library/css/master.css' );
 
-	//wp_enqueue_style( 'master', get_template_directory_uri() . '/library/css/master.css', array(), filemtime( get_stylesheet_directory() . '/library/css/master.css' );
+	wp_enqueue_style( 'master', get_template_directory_uri() . '/library/css/master.css', array(), filemtime( get_template_directory() . '/library/css/master.css' ), all );
 
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic|Prata' );
 
-	wp_enqueue_script( 'master', get_template_directory_uri() . '/js/min/master-min.js', array(), false, true );
+	wp_enqueue_script( 'master', get_template_directory_uri() . '/js/min/master-min.js', array(), filemtime( get_template_directory() . '/js/min/master-min.js' ), true );
 
-	wp_enqueue_script( 'brenton', get_template_directory_uri() . '/js/min/brenton-min.js', array(), false, true );
+	wp_enqueue_script( 'brenton', get_template_directory_uri() . '/js/min/brenton-min.js', array(), filemtime( get_template_directory() . '/js/min/brenton-min.js' ), true );
 
 	wp_enqueue_script( 'font-awesome', '//use.fontawesome.com/88617229fe.js', true );
 
