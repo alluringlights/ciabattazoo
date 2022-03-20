@@ -5725,16 +5725,16 @@ header {
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 84px;
-    height: 120px;
+    width: 300px;
+    height: 143px;
     text-indent: -9999px;
-    background-image: url("../../img/monogram.png");
+    background-image: url("../../img/bbrookings-portfolio-logo.png");
     background-size: 95%;
     background-repeat: no-repeat;
     margin-bottom: 5px;
     transition: .5s; }
   header.header-scrolled .brand {
-    width: 55px;
+    width: 160px;
     height: 75px; }
   header.header-scrolled p {
     opacity: 0;
@@ -5969,7 +5969,7 @@ h4 {
   text-transform: uppercase; }
 
 .site-content {
-  margin-top: 225px; }
+  margin-top: 185px; }
 
 p a:link, p a:hover, p a:active, p a:visited {
   text-decoration: underline; }

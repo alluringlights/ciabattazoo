@@ -13,11 +13,9 @@
 
 	<body <?php body_class(); ?>>
 	<!-- <div id="top"></div> -->
-	<div class="se-pre-con"></div>
 		
 				<header>
 					<a href="<?php bloginfo('url'); ?>" class="brand"><?php bloginfo('name'); ?></a>
-					<img src="<?php bloginfo('url'); ?>/wp-content/themes/brentonbrookings-theme/img/name.png" alt="Brenton Brookings" id="name">
 					<button id="nav-toggle">
 						<span></span>
 						<span></span>
