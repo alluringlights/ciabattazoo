@@ -26,7 +26,7 @@ $grid.imagesLoaded().progress( function() {
 $("#start").waypoint(function() {
   $('header').toggleClass("header-scrolled");
   $('#name').toggleClass("faded");
-}, { offset: 200
+}, { offset: 143
 });
 
 $('#nav-toggle').click(function() {
