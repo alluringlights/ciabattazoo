@@ -48,7 +48,7 @@
 	 <?php $img = get_sub_field('image'); ?>
 
 	 
-    <!-- test -->
+
 	<div class="col-lg-8 col-md-7 img-container"> 
 		<a href="<?php echo $img['url']; ?>">
 			<img src="<?php echo $img['url']; ?>" 

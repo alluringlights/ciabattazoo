@@ -1,5 +1,6 @@
 <?php
 
+
 	add_theme_support( 'post-thumbnails' );
 
 	register_nav_menu( 'primary', 'Header Navigation' );
@@ -8,7 +9,7 @@ function theme_scripts() {
 
 	// wp_enqueue_style( 'master', get_template_directory_uri() . '/library/css/master.css' );
 
-	wp_enqueue_style( 'master', get_template_directory_uri() . '/library/css/master.css', array(), filemtime( get_template_directory() . '/library/css/master.css' ), all );
+	wp_enqueue_style( 'master', get_template_directory_uri() . '/library/css/master.css', array(), filemtime( get_template_directory() . '/library/css/master.css' ), 'all' );
 
 	wp_enqueue_style( 'google-fonts', '//fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic|Prata' );
 

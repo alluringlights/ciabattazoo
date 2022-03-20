@@ -5980,4 +5980,7 @@ p a:link, p a:hover, p a:active, p a:visited {
 #legal {
   font-size: 14px; }
 
+.grecaptcha-badge {
+  opacity: 0; }
+
 /*# sourceMappingURL=master.css.map */
